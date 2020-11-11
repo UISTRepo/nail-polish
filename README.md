@@ -1,6 +1,6 @@
 # NailPolish
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+After you clone or download the project, run `npm install` in the root of the project to install the node modules
 
 ## Development server
 
