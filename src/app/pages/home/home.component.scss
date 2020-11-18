@@ -8,3 +8,27 @@
     padding-left: 0;
   }
 }
+
+#carouselExampleCaptions{
+
+  .carousel-item{
+    height: 350px;
+    img{
+      height: 350px;
+      object-fit: cover;
+    }
+  }
+
+}
+
+.info-card{
+  margin: 16px 0;
+}
+
+@media (max-width: 991px) {
+
+  .sideBar{
+    display: none;
+  }
+
+}
