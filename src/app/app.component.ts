@@ -29,4 +29,8 @@ export class AppComponent {
         });
     }
 
+    callPhone(){
+        console.log('Call the phone');
+    }
+
 }

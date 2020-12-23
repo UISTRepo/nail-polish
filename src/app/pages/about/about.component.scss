@@ -1,0 +1,14 @@
+$primaryColor: #D14C77;
+$primaryColorBold: #c41b5b;
+
+img{
+  width: 100%;
+  border: 1px solid $primaryColor;
+}
+
+.row{
+  div{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
