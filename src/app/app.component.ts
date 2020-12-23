@@ -17,6 +17,11 @@ export class AppComponent {
         private router: Router
     ) {
 
+        let someVar = {
+            'id': 1,
+            'name': 'Admin'
+        };
+
         router.events.subscribe((val) => {
             if(val instanceof NavigationEnd){
                 this.currentPage = val.url;

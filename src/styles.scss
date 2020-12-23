@@ -63,3 +63,49 @@
     }
   }
 }
+
+$primaryColor: #D14C77;
+$primaryColorBold: #c41b5b;
+
+.primary{
+  color: $primaryColor;
+}
+
+.primary-active{
+  color: rgba(209,76,119,.9) !important;
+}
+
+.primary-background{
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+}
+
+.primary-background:hover{
+  background-color: $primaryColorBold;
+  border-color: $primaryColorBold;
+}
+
+.primary-outline{
+  color: $primaryColor;
+  border-color: $primaryColor;
+}
+
+.primary-outline:hover{
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+}
+
+header{
+  margin-bottom: 8px;
+
+  .nav-item{
+    padding-top: 8px;
+  }
+
+  .img{
+    padding-top: 0;
+    cursor: pointer;
+  }
+}
+
+

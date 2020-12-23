@@ -1,0 +1,26 @@
+<form [formGroup]="contactForm">
+    <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+            <input formControlName="email" type="email" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="comment" class="col-sm-2 col-form-label">Comment</label>
+        <div class="col-sm-10">
+            <textarea formControlName="comment" id="comment" rows="10" class="form-control"></textarea>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-12 text-right">
+            <button type="button" class="btn btn-primary primary-background" (click)="submitForm()">Submit</button>
+        </div>
+    </div>
+</form>
+<br>
+<div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{errorMessage}}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
